@@ -1,0 +1,81 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-image: url('water.jpg');
+
+}
+
+nav{
+    border-style: solid;
+    border-color: rgb(3, 9, 97);
+    border-radius: 30px;
+    box-shadow: 10px 10px 0px rgb(17, 0, 248);
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav.menu-nav ul li.btn{
+    list-style: none;
+    display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+    padding: 100px;
+    margin: 40px;
+    font-size: 190%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+h1{
+    text-align: center;
+    font-size: 27pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(3, 2, 59);
+}
+
+main .one{
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px ;
+    color: rgb(6,5, 94) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+h3{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(10, 10, 37);
+}
+
+p{
+    font-size: 25px;
+    color: rgb(21, 16, 161);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    color: rgb(15, 161, 206);
+    border-radius: 100px;
+    object-fit: cover;
+    float: left;
+    shape-outside: margin-box;
+    margin: 10px 20px 5px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+img .container2{
+    margin-right: 100px;
+}
+
+.main_footer{
+    border-style: solid;
+    margin-top: 200px;
+}
